@@ -1,0 +1,8 @@
+{
+    "name": "js102",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-execute":"~0.1.5"
+    }
+}
