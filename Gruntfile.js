@@ -8,6 +8,8 @@ module.exports = function(grunt) {
             }
         },
         watch: {
+            //http://gruntjs.com/sample-gruntfile
+            //https://github.com/gruntjs/grunt-contrib-watch
             files: ['for.js'],
             tasks: ['execute'],
             options: {
