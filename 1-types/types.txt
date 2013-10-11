@@ -1,0 +1,24 @@
+Number
+String
+Boolean
+Object
+Function
+Array
+Date
+RegExp
+Null
+Undefined
+
+
+null: object (type is 'object') that indicates a deliberate non-value
+
+undefined: object (type is 'undefined') which is uninitialized
+
+
+declaring variables:
+var a; // type is undefined
+var cheese = "cheddar";
+
+
+literals can't change
+const cars = ["Mercedes", "Audi", "BMW"];

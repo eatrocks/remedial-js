@@ -1,4 +1,5 @@
-// while.  do while is also possible
+// While
+
 var foundIt = false;
 var i = 0;
 console.log('Looking for a 10');
@@ -11,4 +12,5 @@ while (!foundIt){
 
 }
 
-//todo cover double and tripple equals
+
+//  do while is also possible

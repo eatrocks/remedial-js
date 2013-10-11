@@ -1,0 +1,45 @@
+Show grunt setup
+  -package.json describes my application including dependencies
+  -so you need to run npm install to pull in the dependencies
+  -npm install creates a node_modules folder to store the dependencies
+
+Gruntfile.js configures grunt, a nodeJS task runner
+  -I used this to automatically run the script I'm working on when saved
+  -uses the grunt-execute plugin to run the changed script with node
+  -uses the grunt-contrib-watch plugin to watch for changes
+
+1 Types and Operators
+  types.txt - null, undefined, and declaring variables in detail
+  number.js
+  string.js
+  boolean.js
+
+
+2 Control Structures
+  if.js
+  for.js
+  while.js
+  switch.js
+
+3 Operators
+  math.js
+  comparison.js
+  logical.js
+  ternary.js
+
+4 Objects
+  objects.js
+  array.js (todo)
+
+5 Functions
+  functions.js
+  parameters.js
+  arguments.js
+  anonymous.js
+  classes.js
+  new.js
+  new2.js
+
+References
+Official JavaScript Documentation
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
