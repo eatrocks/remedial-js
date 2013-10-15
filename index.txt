@@ -8,7 +8,7 @@ Gruntfile.js configures grunt, a nodeJS task runner
   -uses the grunt-execute plugin to run the changed script with node
   -uses the grunt-contrib-watch plugin to watch for changes
 
-1 Types and Operators
+1 Types
   types.txt - null, undefined, and declaring variables in detail
   declaring.js
   number.js
@@ -44,7 +44,6 @@ Gruntfile.js configures grunt, a nodeJS task runner
 
 6-Scope
   scope.js
-  global.js
   function.js
   block.js
   hoisting.js
@@ -53,7 +52,7 @@ Gruntfile.js configures grunt, a nodeJS task runner
   context.txt
   this-method.js
   this-constructor.js
+  this-function.js
   this-apply-call.js
-  this-method.js
 
 See also links.txt
