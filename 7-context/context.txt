@@ -1,0 +1,14 @@
+Context
+Context (or function context) is a reference to the
+object that “owns” the currently executing code.
+
+The context is is passed to the function
+as an implicit parameter named "this".
+
+Scope is function based, context is object based.
+
+What "this" refers to depends upon how the function is invoked
+1. as a method on an object - see this-method.js
+2.
+1. as a Function - called with ()
+//       but not the other ways (method, constructor, apply/call)

@@ -5,7 +5,7 @@ if (1 == true) {
     console.log('1 is true');
 }
 
-//   Tripple equals: does not perform type coercion
+//   Triple equals: does not perform type coercion
 if (!(1 === true)) {
     console.log('  but not without type coercion');
 }

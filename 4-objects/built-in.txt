@@ -1,0 +1,10 @@
+Javascript has some built-in objects
+------------------------------------
+Arrays - more on this momentarily
+Dates
+Regular Expression stuff
+Functions are actually a special type of object
+Math
+...
+There are a bunch...
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects

@@ -16,3 +16,4 @@ cat.lostLife();
 console.log(cat);
 
 // this code is even starting to look clean eh?
+// we can do even better.

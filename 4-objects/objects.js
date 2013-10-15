@@ -1,13 +1,16 @@
 //Objects
-// everyting in JavaScript is an object except core types
+// everything in JavaScript is an object except core types
 // objects are basically just collections of name-value pairs
 
-// new up an object with the new key word
+// "new up" an object with the new key word
 var o = new Object();
 
-// this is equivalent, called Object Literal Syntax
+// this is equivalent
+// this curly brace, name: value pair syntax is called object literal
 // uses the core of JSON format
-var o = {};
+var o = {
+    name: 'Joe'
+};
 
 // add properties to the object upon creation...
 var cat = {
@@ -20,7 +23,7 @@ var cat = {
     }
 };
 
-// or later
+// or later (add size to "o" which did not previously exist)
 o.size = 10;
 
 // Properties are accessed and assigned 2 ways

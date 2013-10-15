@@ -12,7 +12,9 @@ module.exports = function(grunt) {
             //http://gruntjs.com/sample-gruntfile
             //https://github.com/gruntjs/grunt-contrib-watch
             files: ['1-types/*.js', '2-control/*.js', '3-operators/*.js',
-                    '4-objects/*.js', '5-functions/*.js',
+                    '4-objects/*.js', '5-functions/*.js', '6-scope/*.js',
+                    '7-context/*.js',
+                    '!6-scope/block.js',
                     '!node_modules/**/*.js'],
             tasks: ['execute'],
             options: {

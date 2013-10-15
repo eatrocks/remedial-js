@@ -1,7 +1,7 @@
 // Arguments
 
 // functions have a special hidden variable called "arguments"
-// arguments is array-like
+// arguments is array-like (not a real array)
 function calculateSum(){
     var sum = 0;
     for (var i = 0 ; i < arguments.length; i++) {
@@ -15,6 +15,7 @@ var total = calculateSum(5, 6, 7);
 console.log(total);
 
 // you can coax an array into a set of arguments with the apply() method
+// more on "apply" later... if we get that far
 total = calculateSum.apply(null, [8, 9, 10]);
 console.log(total);
 

@@ -1,4 +1,4 @@
-Show grunt setup
+Grunt setup
   -package.json describes my application including dependencies
   -so you need to run npm install to pull in the dependencies
   -npm install creates a node_modules folder to store the dependencies
@@ -10,10 +10,10 @@ Gruntfile.js configures grunt, a nodeJS task runner
 
 1 Types and Operators
   types.txt - null, undefined, and declaring variables in detail
+  declaring.js
   number.js
   string.js
   boolean.js
-
 
 2 Control Structures
   if.js
@@ -28,8 +28,9 @@ Gruntfile.js configures grunt, a nodeJS task runner
   ternary.js
 
 4 Objects
+  built-in.txt
   objects.js
-  array.js (todo)
+  array.js
 
 5 Functions
   functions.js
@@ -39,7 +40,20 @@ Gruntfile.js configures grunt, a nodeJS task runner
   classes.js
   new.js
   new2.js
+  prototype.js
 
-References
-Official JavaScript Documentation
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+6-Scope
+  scope.js
+  global.js
+  function.js
+  block.js
+  hoisting.js
+
+7-Context
+  context.txt
+  this-method.js
+  this-constructor.js
+  this-apply-call.js
+  this-method.js
+
+See also links.txt

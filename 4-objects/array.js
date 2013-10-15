@@ -12,7 +12,7 @@ colors[100] = 'pink';
 // notice what length returns (101, not 4)
 console.log('colors array length is now ' + colors.length);
 
-// so don't iterate using length
+// so don't iterate using length... unless that's what you really need
 for (i in colors) {
     console.log(colors[i]);
 }

@@ -5,9 +5,11 @@ for (var i = 1; i <= 2; i++)
     console.log("number is:  " + i);
 }
 
+// this is an array, we'll talk about it later
 const cars = ["Mercedes", "Audi", "BMW"];
 
-for (car in cars) {
-    // car is the index, not the value
-    console.log(cars[car] );
+var i;
+for (i in cars) {
+    // i is the index, not the value
+    console.log(cars[i] );
 }
