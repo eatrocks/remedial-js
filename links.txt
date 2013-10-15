@@ -1,3 +1,6 @@
+The Git repository for this project
+https://github.com/eatrocks/remedial-js.git
+
 Secrets of the JavaScript Ninja
 http://www.manning.com/resig/
 
